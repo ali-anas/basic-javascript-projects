@@ -5,6 +5,8 @@ let buttonPlate = document.getElementById("buttonPlate");
 
 let images = ["https://s3-us-west-2.amazonaws.com/s.cdpn.io/1259621/city.jpg", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1259621/cloudy.jpg", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1259621/green.jpg", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1259621/pretty_clouds.jpg"];
 
+let imageIndex = 0;
+
 
 let buttonList = document.createElement("LI");
 for(let i = 1; i <= images.length; i++) {
@@ -22,10 +24,6 @@ for(let i = 1; i <= images.length; i++) {
 
 buttonPlate.appendChild(buttonList);
 
-
-	
-
-let imageIndex = 0;
 
 // point to previous image when prev button is clicked
 
