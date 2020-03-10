@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+
+:root {
+    --primary: #396dff;
+    --grey: #f7f7f7;
+    --white: #fff;
+    
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", "Sans-serif";
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.heading {
+    padding: var(--s) var(--m);
+    margin: 0;
+    color: var(--white);
+}
+
+.greetingContainer {
+    padding: var(--s) var(--m);
+}
+
+.u-textCenter {
+    text-align: center;
+}
+
+
+.resultsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: var(--s) var(--s);
+}
+
+.resultsContainer > p {
+    background-color: springgreen;
+    font-size: var(--m);
+    margin: var(--m);
+    padding: var(--m) var(--m);
+    width: 100%;
+}
+  
+
+.grid {
+    display: grid;
+    padding: var(--s) 30%;
+    grid-column-gap: var(--l);
+    grid-template-columns: auto;
+}
+
+.grid-item {
+    background-color: springgreen;
+    font-size: var(--m);
+    padding: var(--s) var(--m);
+    margin: var(--s);
+}  
